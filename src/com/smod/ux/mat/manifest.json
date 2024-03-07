@@ -1,0 +1,73 @@
+{
+  "_version": "1.12.0",
+  "sap.app": {
+    "id": "com.smod.ux.mat",
+    "type": "library",
+    "applicationVersion": {
+      "version": "1.1.0"
+    },
+    "title": "SMOD UX Material Library",
+    "description": "SMOD UX material library",
+    "ach": "",
+    "offline": true
+  },
+  "sap.ui": {
+    "technology": "UI5",
+    "supportedThemes": []
+  },
+
+  "sap.ui5": {
+    "dependencies": {
+      "minUI5Version": "1.52.0",
+      "libs": {
+        "sap.ui.core": {}
+      }
+    },
+    "library": {
+      "i18n": "i18n.properties",
+      "css": true,
+      "content": {
+        "controls": [
+          "com.smod.ux.mat.controls.Button",
+          "com.smod.ux.mat.controls.CheckBox",
+          "com.smod.ux.mat.controls.Chip",
+          "com.smod.ux.mat.controls.ChipSet",
+          "com.smod.ux.mat.controls.Divider",
+          "com.smod.ux.mat.controls.Field",
+          "com.smod.ux.mat.controls.Icon",
+          "com.smod.ux.mat.controls.IconButton",
+          "com.smod.ux.mat.controls.Menu",
+          "com.smod.ux.mat.controls.MenuItem",
+          "com.smod.ux.mat.controls.MultiSelect",
+          "com.smod.ux.mat.controls.RadioGroup",
+          "com.smod.ux.mat.controls.Radio",
+          "com.smod.ux.mat.controls.Select",
+          "com.smod.ux.mat.controls.SelectList",
+          "com.smod.ux.mat.controls.SelectOption",
+          "com.smod.ux.mat.controls.Switch",
+          "com.smod.ux.mat.controls.Tab",
+          "com.smod.ux.mat.controls.TabContainer",
+          "com.smod.ux.mat.controls.TabPanel",
+          "com.smod.ux.mat.controls.TextField"
+        ],
+        "elements": [
+          
+        ],
+        "types": [
+          "com.smod.ux.mat.enum.ButtonVariant",
+          "com.smod.ux.mat.enum.FieldVariant",
+          "com.smod.ux.mat.enum.TabVariant",
+          "com.smod.ux.mat.enum.TextVariant"
+        ],
+        "interfaces": []
+      }
+    }
+  },
+  "sap.platform.hcp": {
+    "uri": ""
+  },
+  "sap.fiori": {
+    "registrationIds": [],
+    "archeType": "reusecomponent"
+  }
+}

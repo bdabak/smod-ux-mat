@@ -1,0 +1,546 @@
+@font-face {
+  /* material-symbols-rounded-regular - latin */
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Material Symbols Rounded";
+  font-style: normal;
+  font-weight: 400;
+  src: url("assets/fonts/material-symbols/material-rounded.woff2")
+    format("woff2");
+}
+
+/* roboto-100 - latin_latin-ext */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 100;
+  src: url("assets/fonts/roboto/roboto-v30-latin_latin-ext-100.woff2")
+    format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* roboto-100italic - latin_latin-ext */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Roboto";
+  font-style: italic;
+  font-weight: 100;
+  src: url("assets/fonts/roboto/roboto-v30-latin_latin-ext-100italic.woff2")
+    format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* roboto-300 - latin_latin-ext */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  src: url("assets/fonts/roboto/roboto-v30-latin_latin-ext-300.woff2")
+    format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* roboto-300italic - latin_latin-ext */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Roboto";
+  font-style: italic;
+  font-weight: 300;
+  src: url("assets/fonts/roboto/roboto-v30-latin_latin-ext-300italic.woff2")
+    format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* roboto-regular - latin_latin-ext */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: url("assets/fonts/roboto/roboto-v30-latin_latin-ext-regular.woff2")
+    format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* roboto-italic - latin_latin-ext */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Roboto";
+  font-style: italic;
+  font-weight: 400;
+  src: url("assets/fonts/roboto/roboto-v30-latin_latin-ext-italic.woff2")
+    format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* roboto-500 - latin_latin-ext */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  src: url("assets/fonts/roboto/roboto-v30-latin_latin-ext-500.woff2")
+    format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* roboto-500italic - latin_latin-ext */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Roboto";
+  font-style: italic;
+  font-weight: 500;
+  src: url("assets/fonts/roboto/roboto-v30-latin_latin-ext-500italic.woff2")
+    format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* roboto-700 - latin_latin-ext */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  src: url("assets/fonts/roboto/roboto-v30-latin_latin-ext-700.woff2")
+    format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* roboto-700italic - latin_latin-ext */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Roboto";
+  font-style: italic;
+  font-weight: 700;
+  src: url("assets/fonts/roboto/roboto-v30-latin_latin-ext-700italic.woff2")
+    format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* roboto-900 - latin_latin-ext */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  src: url("assets/fonts/roboto/roboto-v30-latin_latin-ext-900.woff2")
+    format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* roboto-900italic - latin_latin-ext */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Roboto";
+  font-style: italic;
+  font-weight: 900;
+  src: url("assets/fonts/roboto/roboto-v30-latin_latin-ext-900italic.woff2")
+    format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* poppins-100 - latin_latin-ext */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 100;
+  src: url("assets/fonts/poppins/poppins-v20-latin_latin-ext-100.woff2")
+    format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* poppins-100italic - latin_latin-ext */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Poppins";
+  font-style: italic;
+  font-weight: 100;
+  src: url("assets/fonts/poppins/poppins-v20-latin_latin-ext-100italic.woff2")
+    format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* poppins-200 - latin_latin-ext */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 200;
+  src: url("assets/fonts/poppins/poppins-v20-latin_latin-ext-200.woff2")
+    format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* poppins-200italic - latin_latin-ext */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Poppins";
+  font-style: italic;
+  font-weight: 200;
+  src: url("assets/fonts/poppins/poppins-v20-latin_latin-ext-200italic.woff2")
+    format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* poppins-300 - latin_latin-ext */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  src: url("assets/fonts/poppins/poppins-v20-latin_latin-ext-300.woff2")
+    format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* poppins-300italic - latin_latin-ext */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Poppins";
+  font-style: italic;
+  font-weight: 300;
+  src: url("assets/fonts/poppins/poppins-v20-latin_latin-ext-300italic.woff2")
+    format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* poppins-regular - latin_latin-ext */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  src: url("assets/fonts/poppins/poppins-v20-latin_latin-ext-regular.woff2")
+    format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* poppins-italic - latin_latin-ext */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Poppins";
+  font-style: italic;
+  font-weight: 400;
+  src: url("assets/fonts/poppins/poppins-v20-latin_latin-ext-italic.woff2")
+    format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* poppins-500 - latin_latin-ext */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  src: url("assets/fonts/poppins/poppins-v20-latin_latin-ext-500.woff2")
+    format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* poppins-500italic - latin_latin-ext */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Poppins";
+  font-style: italic;
+  font-weight: 500;
+  src: url("assets/fonts/poppins/poppins-v20-latin_latin-ext-500italic.woff2")
+    format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* poppins-600 - latin_latin-ext */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  src: url("assets/fonts/poppins/poppins-v20-latin_latin-ext-600.woff2")
+    format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* poppins-600italic - latin_latin-ext */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Poppins";
+  font-style: italic;
+  font-weight: 600;
+  src: url("assets/fonts/poppins/poppins-v20-latin_latin-ext-600italic.woff2")
+    format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* poppins-700 - latin_latin-ext */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  src: url("assets/fonts/poppins/poppins-v20-latin_latin-ext-700.woff2")
+    format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* poppins-700italic - latin_latin-ext */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Poppins";
+  font-style: italic;
+  font-weight: 700;
+  src: url("assets/fonts/poppins/poppins-v20-latin_latin-ext-700italic.woff2")
+    format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* poppins-800 - latin_latin-ext */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 800;
+  src: url("assets/fonts/poppins/poppins-v20-latin_latin-ext-800.woff2")
+    format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* poppins-800italic - latin_latin-ext */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Poppins";
+  font-style: italic;
+  font-weight: 800;
+  src: url("assets/fonts/poppins/poppins-v20-latin_latin-ext-800italic.woff2")
+    format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* poppins-900 - latin_latin-ext */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 900;
+  src: url("assets/fonts/poppins/poppins-v20-latin_latin-ext-900.woff2")
+    format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* poppins-900italic - latin_latin-ext */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Poppins";
+  font-style: italic;
+  font-weight: 900;
+  src: url("assets/fonts/poppins/poppins-v20-latin_latin-ext-900italic.woff2")
+    format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+:root {
+  /* custom styles */
+  --md-elevated-button-container-shape: 4px;
+  --md-filled-button-container-shape: 4px;
+  --md-outlined-button-container-shape: 4px;
+  --md-text-button-container-shape: 4px;
+  --md-filled-tonal-button-container-shape: 4px;
+
+  --md-filled-text-field-active-indicator-height: 2px;
+  --md-filled-text-field-hover-active-indicator-height: 2px;
+  --md-filled-select-text-field-active-indicator-height: 2px;
+  --md-filled-select-text-field-hover-active-indicator-height: 2px;
+  --md-outlined-select-text-field-active-indicator-height: 2px;
+  --md-outlined-select-text-field-hover-active-indicator-height: 2px;
+
+  --md-outlined-text-field-outline-width: 2px;
+  --md-outlined-text-field-hover-outline-width: 2px;
+  --md-outlined-text-field-disabled-outline-width: 2px;
+  --md-outlined-text-field-input-text-placeholder-color: var(
+    --md-ref-palette-neutral80,
+    #bebebe
+  );
+
+
+
+  --md-filled-text-field-input-text-placeholder-color: var(
+    --md-ref-palette-secondary60
+  );
+  --md-outlined-text-field-input-text-placeholder-color: var(
+    --md-ref-palette-secondary60
+  );
+
+  --md-menu-item-label-text-line-height: 1rem;
+  --md-menu-item-one-line-container-height: 1rem;
+  
+  --md-menu-item-top-space: 10px;
+  --md-menu-item-bottom-space: 10px;
+  --md-menu-item-leading-space: 10px;
+  --md-menu-item-trailing-space: 10px;
+
+  --md-icon-font: "Material Symbols Rounded";
+  --md-ref-typeface-plain:"Poppins";
+
+  --md-menu-container-color: var(--md-sys-color-on-primary-light);
+  --md-menu-container-shape: 2px;
+  --md-sys-color-on-surface: #001f25;
+
+  --md-filled-button-container-height: 30px;
+  --md-outlined-button-container-height: 30px;
+  --md-elevated-button-container-height: 30px;
+  --md-filled-button-container-elevation: 1;
+  --md-outlined-button-container-elevation: 1;
+
+  --md-outlined-field-outline-width: 2px;
+  --md-outlined-field-active-outline-width: 3px;
+  --md-outlined-field-disabled-outline-width: 2px;
+  --md-outlined-field-hover-outline-width: 2px;
+  --md-outlined-text-field-disabled-input-text-opacity: 0.90;
+  --md-outlined-text-field-disabled-label-text-opacity: 0.90;
+  --md-filled-text-field-disabled-input-text-opacity: 0.90;
+  --md-filled-text-field-disabled-label-text-opacity: 0.90;
+
+  --md-filled-field-outline-width: 2px;
+  --md-filled-field-active-outline-width: 3px;
+  --md-filled-field-disabled-outline-width: 2px;
+  --md-filled-field-hover-outline-width: 2px;
+
+  --md-outlined-select-text-field-outline-width: 2px;
+  --md-outlined-select-text-field-active-outline-width: 3px;
+  --md-outlined-select-text-field-disabled-outline-width: 2px;
+  --md-outlined-select-text-field-hover-outline-width: 2px;
+  --md-outlined-select-text-field-disabled-input-text-opacity: 0.90;
+  --md-outlined-select-text-field-disabled-label-text-opacity: 0.80;
+
+
+  --md-filled-select-text-field-outline-width: 2px;
+  --md-filled-select-text-field-active-outline-width: 3px;
+  --md-filled-select-text-field-disabled-outline-width: 2px;
+  --md-filled-select-text-field-hover-outline-width: 2px;
+  --md-filled-select-text-field-disabled-input-text-opacity: 0.90;
+  --md-filled-select-text-field-disabled-label-text-opacity: 0.80;
+
+  --md-outlined-text-field-hover-outline-color: var(--md-sys-color-primary);
+  --md-filled-text-field-hover-outline-color: var(--md-sys-color-primary);
+  --md-outlined-select-text-field-hover-outline-color: var(--md-sys-color-primary);
+  --md-filled-select-text-field-hover-outline-color: var(--md-sys-color-primary);
+
+  --md-input-chip-outline-color: #e81932;
+  --md-input-chip-label-text-color: var( --md-sys-color-on-surface-light);
+  --md-input-chip-hover-label-text-color: var(--md-sys-color-on-secondary-container-light);
+  --md-input-chip-hover-state-layer-color: #e81932;
+  --md-input-chip-hover-state-layer-opacity: 0.2;
+  --md-input-chip-container-shape:4px;
+
+
+  --md-filter-chip-elevated-container-color:var(--md-ref-palette-primary40);
+  --md-filter-chip-hover-state-layer-color:var(--md-ref-palette-primary40);
+  --md-filter-chip-elevated-selected-container-color:var(--md-ref-palette-primary25);
+  --md-filter-chip-selected-container-color:var(--md-ref-palette-primary25);
+  --md-filter-chip-selected-pressed-state-layer-color:var(--md-ref-palette-primary25);
+  --md-filter-chip-selected-hover-state-layer-color:var(--md-ref-palette-primary25);
+  --md-filter-chip-label-text-color: var(--md-ref-palette-primary99);
+  --md-filter-chip-leading-icon-color: var(--md-ref-palette-primary99);
+  --md-filter-chip-hover-label-text-color: var(--md-ref-palette-primary100);
+  --md-filter-chip-focus-label-text-color:var(--md-ref-palette-primary100);
+  --md-filter-chip-pressed-state-layer-color:var(--md-ref-palette-primary25);
+  --md-filter-chip-pressed-label-text-color: var(--md-ref-palette-primary100);
+  --md-filter-chip-selected-pressed-label-text-color:var(--md-ref-palette-primary100);
+  --md-filter-chip-selected-label-text-color: var(--md-ref-palette-primary100);
+  --md-filter-chip-selected-focus-label-text-color: var(--md-ref-palette-primary100);
+  --md-filter-chip-focus-leading-icon-color: var(--md-ref-palette-primary99);
+  --md-filter-chip-leading-icon-color: var(--md-ref-palette-primary99);
+  --md-filter-chip-hover-leading-icon-color: var(--md-ref-palette-primary100);
+  --md-filter-chip-pressed-leading-icon-color: var(--md-ref-palette-primary100);
+  --md-filter-chip-selected-focus-leading-icon-color: var(--md-ref-palette-primary100);
+  --md-filter-chip-selected-leading-icon-color: var(--md-ref-palette-primary100);
+  --md-filter-chip-selected-pressed-leading-icon-color: var(--md-ref-palette-primary100);
+  --md-filter-chip-selected-hover-label-text-color: var(--md-ref-palette-primary99);
+  --md-filter-chip-selected-hover-leading-icon-color: var(--md-ref-palette-primary99);
+
+  --md-sys-typescale-body-large-size: 14px;
+  --md-sys-typescale-body-medium-size: 12px;
+  --md-sys-typescale-body-small-size: 11px;
+
+
+  --md-switch-selected-pressed-handle-color:var(--md-ref-palette-primary98);
+  --md-switch-selected-focus-handle-color: var(--md-ref-palette-primary98);
+
+}
+
+.material-symbols-rounded {
+  font-family: "Material Symbols Rounded";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: "liga";
+  -webkit-font-smoothing: antialiased;
+}
+
+md-icon {
+  font-variation-settings: "FILL" 1;
+  -webkit-font-feature-settings: "liga";
+  -webkit-font-smoothing: antialiased;
+}
+
+md-menu{
+  max-height: 300px;
+}
+
+.md-radio-group-horizontal {
+  display: inline-flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.md-radio-group-item {
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+}
+
+.md-tab-panel {
+  padding: 1rem;
+  background-color: #f9fafc;
+}
+
+.md-field-box {
+  position: relative;
+  border: 2px solid var(--md-sys-color-on-surface-variant);
+  border-radius: var(--md-outlined-button-container-shape);
+  padding: 1rem 0.7rem;
+  box-sizing: border-box;
+  transition: all 0.5 ease-in-out;
+}
+
+.md-field-box-label {
+  position: absolute;
+  font-size: 1rem;
+  left: 0;
+  top: -10px;
+  background-color: white;
+  padding: 0 0.3rem;
+  margin: 0 0.5rem;
+  pointer-events: none;
+  color: var(--md-sys-color-on-surface-variant);
+}
+
+.md-field-box:hover,
+.md-field-box:focus {
+  border: 3px solid var(--md-sys-color-primary-light);
+}
+
+.md-field-box:hover .md-field-box-label,
+.md-field-box:focus .md-field-box-label {
+  color: var(--md-sys-color-primary-light);
+}
+
+.md-multi-select-menu {
+  min-width: 300px;
+}
+
+.md-multi-select {
+  --md-menu-item-pressed-state-layer-color: transparent;
+  --md-outlined-field-hover-outline-color: var(--md-sys-color-primary);
+  min-width: 250px;
+  max-width: 100%;
+  display: block;
+  outline: none;
+  resize: vertical;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.md-multi-select .field,
+.md-multi-select .select {
+  width: 100%;
+  min-height: 80px;
+}
+.md-multi-select .field,
+.md-multi-select .select {
+  min-width: inherit;
+  max-width: inherit;
+  display: flex;
+}
+.md-multi-select .select {
+  position: relative;
+  flex-direction: column;
+}
+
+.md-multi-select md-menu {
+  min-width: 250px;
+}
+.md-multi-select md-menu {
+  min-width: 250px;
+  min-height: 100px;
+}
+
+.md-multi-select-container {
+  position: relative;
+}
+.md-multi-select-menu {
+  min-width: 250px;
+  min-height: 100px;
+}
+
+.md-multi-select::part(filled-field),
+.md-multi-select::part(outlined-field) {
+  width: 100%;
+  min-height: 80px;
+}
+
+.content ::slotted(md-chip-set) {
+  margin-top: 0.2rem;
+}
+
+.md-select-list{
+  position: relative;
+}

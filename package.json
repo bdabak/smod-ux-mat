@@ -1,0 +1,40 @@
+{
+    "name": "com.smod.ux.mat",
+    "version": "0.0.1",
+    "private": true,
+    "devDependencies": {
+        "@material/web": "^1.0.1",
+        "@rollup/plugin-node-resolve": "^15.2.3",
+        "@sap/ux-ui5-tooling": "1",
+        "@ui5/cli": "^3.7.3",
+        "rimraf": "^3.0.2",
+        "rollup": "^4.6.1",
+        "ui5-task-flatten-library":"3.0.1"
+    },
+    "main": "Gruntfile.js",
+    "scripts": {
+        "clean": "rm -rf dist",
+        "build-for-deploy-mat": "npx rollup -p @rollup/plugin-node-resolve \"./src/com/ux/mat/utils/index.js\" -o \"./src/com/ux/mat/utils/material.js\" && npm run build && npm run flatten && npm run clean-after-flatten",
+        "build-for-deploy": "npm run build && npm run flatten && npm run clean-after-flatten",
+        "flatten": "cp -r dist/resources/com/smod/ux/mat/* dist && cp dist/resources/com/smod/ux/mat/.library dist && cp dist/resources/.Ui5RepositoryTextFiles dist",
+        "clean-after-flatten": "rm -rf dist/resources dist/test-resources",
+        "build": "ui5 build -a --clean-dest --include-task=generateCachebusterInfo",
+        "deploy-config": "fiori add deploy-config",
+        "deploy": "npm run build && fiori deploy --config ui5-deploy.yaml && rimraf archive.zip",
+        "undeploy": "fiori undeploy --config ui5-deploy.yaml",
+        "deploy-test": "npm run build && fiori deploy --config ui5-deploy.yaml --testMode true"
+    },
+    "license": "UNLICENSED",
+    "sapux": true,
+    "keywords": [
+        "ui5",
+        "openui5",
+        "sapui5"
+    ],
+    "ui5": {
+        "dependencies": [
+            "@sap/ux-ui5-tooling",
+            "ui5-task-flatten-library"
+        ]
+    }
+}

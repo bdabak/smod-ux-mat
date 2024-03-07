@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<library xmlns="http://www.sap.com/sap.ui.library.xsd">
+    <name>com.smod.ux.mat</name>
+    <vendor>SMOD</vendor>
+    <version>1.1.0</version>
+    <copyright>${copyright}</copyright>
+    <title>SMOD UX Material Library</title>
+    <documentation>SMOD UX Material Library Components</documentation>
+	<dependencies>
+		<dependency>
+			<libraryName>sap.ui.core</libraryName>
+		</dependency>
+	</dependencies>
+    <appData>
+        <thirdparty xmlns="http://www.sap.com/ui5/buildext/thirdparty" >
+            <lib name="materialJS" displayName="material.js" npmName="material-web" version="1.1.1" homepage="https://github.com/material-components/material-web" >
+                <license url="https://github.com/material-components/material-web/blob/main/LICENSE" type="Apache-2.0" />
+                <pattern>com/smod/ux/mat/lib/material.js</pattern>
+            </lib>
+        </thirdparty>
+    </appData>
+</library>
